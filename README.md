@@ -1,1 +1,2 @@
 # Sauce_Code_Demo
+This project automates an e-commerce workflow using Selenium WebDriver. The script launches a browser, logs into the website, adds six products to the cart sequentially, and logs out.
