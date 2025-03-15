@@ -16,6 +16,8 @@ driver = webdriver.Chrome()
 driver.get(URL)
 time.sleep(WAIT_TIME) # Wait for page to load
 
+driver.maximize_window()
+
 # Define Elements as Variables
 Username = driver.find_element(By.ID,"user-name")
 Password = driver.find_element(By.ID,"password")
