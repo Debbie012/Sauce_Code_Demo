@@ -16,6 +16,7 @@ driver = webdriver.Chrome()
 driver.get(URL)
 time.sleep(WAIT_TIME) # Wait for page to load
 
+# Maximize window
 driver.maximize_window()
 
 # Define Elements as Variables
